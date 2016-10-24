@@ -6,6 +6,11 @@
 div.menu-table {
 }
 
+.master-title {
+    text-align: center;
+    font-size: 40px;
+}
+
 .menu-item {
     border: 1px solid black;
     border-radius: 25px;
@@ -21,14 +26,14 @@ div.menu-table {
     clear: right;
     padding: 5px;
 }
-.menu .menu-table:nth-child(1) .menu-heading {
-    background-color: rgba(128,0,0,0.5);;
+.menu-body .menu-table:nth-child(1) .menu-heading {
+    background-color: rgba(128,0,0,0.5);
 }
-.menu .menu-table:nth-child(2) .menu-heading {
-    background-color: rgba(0,128,0,0.5);;
+.menu-body .menu-table:nth-child(2) .menu-heading {
+    background-color: rgba(0,128,0,0.5);
 }
-.menu .menu-table:nth-child(3) .menu-heading {
-    background-color: rgba(0,0,128,0.5);;
+.menu-body .menu-table:nth-child(3) .menu-heading {
+    background-color: rgba(0,0,128,0.5);
 }
 
 .menu-item > .menu-heading {
@@ -40,9 +45,14 @@ div.menu-table {
 }
 
 @media (min-width: 992px) {
+    .col-lg-4, .col-lg-12 {
+        float: left;
+    }
     .col-lg-4 {
         width: 33.33%;
-        float: left;
+    }
+    .col-lg-12 {
+        width: 100%;
     }
 }
 
