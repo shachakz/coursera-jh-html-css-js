@@ -24,7 +24,7 @@ div.menu-table {
 
 .menu-text {
     clear: right;
-    padding: 5px;
+    padding: 15px;
 }
 .menu-body .menu-table:nth-child(1) .menu-heading {
     background-color: rgba(128,0,0,0.5);
